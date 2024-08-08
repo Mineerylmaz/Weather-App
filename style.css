@@ -1,0 +1,51 @@
+body{
+    background-image: url(hava.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: 'montserrat',sans-serif;
+
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0,0 ,.7);
+    height: 100vh;
+    
+}
+.hava{
+   font-size: 50px;
+   color: #fbb034;
+}
+.header input{
+    width: 100%;
+    padding: 10px;
+    background:transparent;
+    border-bottom: 2px solid #fbb034;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.sehir{
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+}
+.derece{
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.durum{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+.maxmin{
+    text-align: center;
+    font-size: 20px;
+}
